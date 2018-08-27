@@ -8,6 +8,9 @@ import java.util.Map;
  * @create: 2018-08-26 23:44
  **/
 public interface UserInfo {
-    Object identify();
-    Map<String, Object> attributes();
+	Object identify();
+	Map<String, Object> attributes();
+	default Object getAttribute(String attributeName) {
+		return attributes().get(attributeName);
+	}
 }
