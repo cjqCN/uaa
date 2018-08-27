@@ -1,4 +1,4 @@
-package com.github.cjqcn.uaa.core.userpasswd;
+package com.github.cjqcn.uaa.core.user;
 
 
 import com.github.cjqcn.uaa.core.UAAException;
